@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-$a9f&ce7)mlyt4k5r_jr9au=w7=rk^n+7i9#r^7-n$nzca=95_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://text-formatter-1.herokuapp.com/']
 
 
 # Application definition
