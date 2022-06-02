@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$a9f&ce7)mlyt4k5r_jr9au=w7=rk^n+7i9#r^7-n$nzca=95_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['text-formatter-1.herokuapp.com']
 
