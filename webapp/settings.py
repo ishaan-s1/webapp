@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-$a9f&ce7)mlyt4k5r_jr9au=w7=rk^n+7i9#r^7-n$nzca=95_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['text-formatter-1.herokuapp.com']
+ALLOWED_HOSTS = ['.vercel.app','.now.sh']
 
 
 # Application definition
@@ -127,3 +127,7 @@ STATIC_URL = '/static/'
 # STATIC_ROOT=os.join(BASE_DIR, 'staticfiles')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+import os
+STATICFILES_DIRS = os.path.join(BASE_DIR,'static'),
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles_build','static')
